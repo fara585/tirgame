@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "Truculenta_18pt-Bold";
+    src: url(./font/Truculenta_18pt-Bold.ttf);
+}
+
+.count {
+    font-family: "Truculenta_18pt-Bold";
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+body {
+    background: dodgerblue;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    cursor: url(img/sell.png), default;
+}
+
+.table {
+    width: 90%;
+    border-bottom: 5px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 150px;
+}
+
+.table__drink {
+    width: 70px;
+    height: 125px;
+    background: url(./img/sptite.png) center bottom/100px no-repeat;
+    transition: 0.5s;
+    transform-origin: bottom;
+}
+
+.die {
+    transform: rotateX(90deg);
+}
